@@ -1,8 +1,10 @@
 import { build } from "esbuild";
-import { cp } from "node:fs/promises";
+import { cp, rm } from "node:fs/promises";
 import { readPackageJSON } from "pkg-types";
 
 const ver = (id) => readPackageJSON(id).then((m) => m.version);
+
+await rm("dist", { recursive: true, force: true });
 
 await build({
   stdin: {
