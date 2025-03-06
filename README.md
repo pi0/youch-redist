@@ -1,5 +1,8 @@
 # youch-redist
 
+[![NPM Version](https://img.shields.io/npm/v/youch-redist)](https://www.npmjs.com/package/youch-redist)
+
+
 > [!IMPORTANT]
 > Please do not use this package directly. It had been made as a temporary solution for Nitro v2 / Nuxt v3 with Node.js 18 support.
 
