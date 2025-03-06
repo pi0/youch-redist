@@ -1,10 +1,12 @@
 {
   "name": "youch-redist",
-  "version": "4.1.0-beta.5-0",
+  "version": "4.1.0-beta.5-1",
   "repository": "pi0/youch-redist",
   "license": "MIT",
   "author": "Harminder Virk <virk@adonisjs.com>",
+  "exports": "./dist/youch.mjs",
   "scripts": {
+    "prepublishOnly": "pnpm build",
     "build": "node ./build.mjs"
   },
   "files": [
