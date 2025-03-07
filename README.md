@@ -1,5 +1,8 @@
 # youch-redist
 
+> [!NOTE]
+> No longer needed as of `youch@4.1.0-beta.6`!
+
 [![NPM Version](https://img.shields.io/npm/v/youch-redist)](https://www.npmjs.com/package/youch-redist)
 
 
